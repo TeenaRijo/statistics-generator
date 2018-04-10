@@ -20,9 +20,13 @@ If there are transactions which are not within the last 60s, they are cleared fr
 ## Building the Project and Deploying the application
 
 Navigate to your folder using command prompt
+
 C:/folder_name>mvn clean install
+
 Once the build is success, move inside the target folder
+
 C:/folder_name> cd target
+
 C:/folder_name/target> java  -jar statistics-generator-0.0.1-SNAPSHOT.jar
 
 [To edit the server port change the port number in \statistics-generator\src\main\resourcesapplication.properties]
