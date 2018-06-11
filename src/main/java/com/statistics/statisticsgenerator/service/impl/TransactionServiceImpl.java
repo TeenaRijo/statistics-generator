@@ -9,6 +9,7 @@ import com.statistics.statisticsgenerator.service.TransactionService;
 import com.statistics.statisticsgenerator.util.Util;
 
 /**
+ * This class is an implementation of <TransactionService> 
  * @author Teena
  *
  */
@@ -16,7 +17,7 @@ import com.statistics.statisticsgenerator.util.Util;
 public class TransactionServiceImpl implements TransactionService {
 
 	/*
-	 * This method adds the transaction to the map if it's timestamp within the
+	 * This method adds the transaction to the map if it's timestamp is within the
 	 * last 60 seconds
 	 */
 	@Override

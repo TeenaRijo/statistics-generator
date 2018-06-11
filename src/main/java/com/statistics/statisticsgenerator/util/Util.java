@@ -19,6 +19,11 @@ public class Util {
 					(System.currentTimeMillis()-timestamp) <= 60000 ;
 		}
 		
+		/**
+		 * method to generate time before a given time(seconds)
+		 * @param time
+		 * @return
+		 */
 		public static long timeBeforeSomeSeconds(long time){
 			return Instant.now().minusSeconds(time).toEpochMilli();
 	}
